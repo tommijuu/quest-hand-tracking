@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 968480709
+CRC: 362274574
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 07d4146fc60843de633518cc279dae4e
+    Hash: 753b0e889ebd8de256afb7b05572ea39
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8feb9cd9a84f3b3cca34b67c8704b81b
+    Hash: 612412b4e436d5fcde7b93e3ab90a260
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,15 +44,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 5c67033f580359c4581dff1ccffcca91, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 9067480af55f5874d8f613b16812f968, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: c3bf6df4a5ac85847831e1fb5fa00ff8, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 2d179fd81cd2e344ab2e610cd5f7260e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: bebfb74b97b000d4899abbd61f49aa40, type: 3}
 - Class: 114
@@ -80,6 +78,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7daff26e66096cd49a253ca3ab592c03, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9c2beb69c900ccf4984646ad420b1e17, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c5af6ab9d1bd4a47970ad151090281f3, type: 3}
@@ -88,9 +88,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b14164f8f23faae4293baeb84485b3d6, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 2606bf2f0c914a7aba4390f29ba2eb6e, type: 3}
+  Script: {fileID: 11500000, guid: 887c8dbd7b891004dbddaf2d9f439564, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: ba7282e6cbb44d94b9399c80f4c2c7e4, type: 3}
+  Script: {fileID: 11500000, guid: 2606bf2f0c914a7aba4390f29ba2eb6e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: acb743c666c1ab34e928a0b62c2fa862, type: 3}
 - Class: 114
@@ -103,8 +103,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 4855895ba1c44959a306beb7ae318fc2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1a379f34d4f4f2e408d34f14bfb753ce, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 84de3b22a7efbab46967c1a17f5b8cda, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3673df66324d8f34d9433049c54de631, type: 3}
 - Class: 114
@@ -120,17 +118,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4ae60cfa43388e449a7518f36418f81c, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 69d6851a1cd1d114bad969d5ea8ed50a, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: e06fe30fd4efa954b8f53ccc8da8f46b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 998a5646185efb9488265f3a2f35a99a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d5e48d93b64a9ae4f9fd5a728c8f51af, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 887c8dbd7b891004dbddaf2d9f439564, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 9c2beb69c900ccf4984646ad420b1e17, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -141,22 +133,22 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: Oculus.Interaction
-  ClassName: Oculus.Interaction.HandPosing.Visuals.HandJointMap
-- AssemblyName: Oculus.Interaction
   ClassName: Oculus.Interaction.MaterialPropertyVector
 - AssemblyName: Oculus.Interaction
   ClassName: Oculus.Interaction.PoseDetection.FingerFeatureStateProvider/FingerStateThresholds
+- AssemblyName: Oculus.Interaction
+  ClassName: Oculus.Interaction.ProgressCurve
 Assets:
 - Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/HandGrabInteractor.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Grab/ControllerGrabInteractor.prefab
 - Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Hands/RightHandVisual.prefab
+- Assets/Oculus/Interaction/Runtime/Prefabs/Hands/RightHandSynthetic.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Hands/LeftHandVisual.prefab
 - Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
-- Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/Ghost-RightHand.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/InputOVR.prefab
+- Assets/Oculus/Interaction/Runtime/Prefabs/Hands/LeftHandSynthetic.prefab
 - Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
-- Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/Ghost-LeftHand.prefab
 Dependencies:
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_asset0
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_controller0

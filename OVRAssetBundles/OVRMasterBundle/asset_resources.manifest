@@ -1,17 +1,19 @@
 ManifestFileVersion: 0
-CRC: 2356963523
+CRC: 2158541427
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 002b9e9c2331283e4396fed7497d2ea8
+    Hash: f470c9edf1cbe69b91e27e9210ff6c3a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c82ec315e77e04b8be0048c2e10f0244
+    Hash: 04097b6ec3bc038aed655e320ebc66bd
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 49
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
@@ -25,10 +27,11 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader
 - Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif
+- Assets/Oculus/Voice/Resources/voicesdk_texts_en-us.json
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/DepthOverwrite.shader
-- Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
 - Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader
 - Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/wit-ai-title.png
 - Assets/Resources/OVRBuildConfig.asset
 - Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png
 - Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
@@ -46,6 +49,7 @@ Assets:
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/Imposter_AlphaToMask.shader
 - Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
 - Assets/Oculus/Interaction/Runtime/Resources/Shaders/UIOverlay.shader
+- Assets/Oculus/Voice/Lib/Wit.ai/Resources/witai_texts_en-us.json
 - Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png
 - Assets/Resources/OculusRuntimeSettings.asset
 - Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader

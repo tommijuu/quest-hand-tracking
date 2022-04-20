@@ -1,24 +1,18 @@
 ManifestFileVersion: 0
-CRC: 577419954
+CRC: 948348196
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8e36848b278cd3f86b96bfa0f34b9d13
+    Hash: 7fb27d70e9e0ef46beafc1249b78a651
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7b4c496529ae7b01ba391d5485955a58
+    Hash: f3d38430c5af8d00a9cc6c5239b8e65f
 HashAppended: 0
 ClassTypes:
-- Class: 1
-  Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 2d179fd81cd2e344ab2e610cd5f7260e, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: c5af6ab9d1bd4a47970ad151090281f3, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 84de3b22a7efbab46967c1a17f5b8cda, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
@@ -29,10 +23,8 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/Oculus/Interaction/Runtime/DefaultSettings/PoseDetection/MiddleFingerFeatureStateThresholds.asset
 - Assets/Oculus/Interaction/Runtime/DefaultSettings/PoseDetection/DefaultThumbFeatureStateThresholds.asset
-- Assets/Oculus/Interaction/Runtime/Prefabs/HandGrab/GhostProvider.asset
 - Assets/Oculus/Interaction/Runtime/Meshes/HandLeft.asset
 - Assets/Oculus/Interaction/Runtime/DefaultSettings/PoseDetection/DefaultFingerFeatureStateThresholds.asset
 - Assets/Oculus/Interaction/Runtime/Meshes/HandRight.asset
 - Assets/Oculus/Interaction/Runtime/DefaultSettings/PoseDetection/IndexFingerFeatureStateThresholds.asset
-Dependencies:
-- F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+Dependencies: []

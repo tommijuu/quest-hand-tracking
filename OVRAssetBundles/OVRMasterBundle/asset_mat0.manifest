@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2602385170
+CRC: 1676544252
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f2764b9309162ebac6003c88c2755456
+    Hash: 9c5c63d3dea471aa4f9a0a8315f1708c
   TypeTreeHash:
     serializedVersion: 2
     Hash: b93bd442b8167f85f0de1ddd2c5f516d
@@ -22,6 +22,7 @@ Assets:
 - Assets/Materials/CubeOne.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
 - Assets/Materials/CubeTwo.mat
+- Assets/Materials/Table.mat
 - Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
 - Assets/Materials/CubeThree.mat

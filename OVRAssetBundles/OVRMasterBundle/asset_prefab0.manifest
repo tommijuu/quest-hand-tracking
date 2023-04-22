@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 362274574
+CRC: 222872727
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 753b0e889ebd8de256afb7b05572ea39
+    Hash: 95b2c9c4380260205df098af22ef12b9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 612412b4e436d5fcde7b93e3ab90a260
+    Hash: 49a35b6e11fc3ff372e8440c068ba9ee
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,6 +33,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: abee63302fdc2bb4f80efe129df0a723, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9af9ea683544b184083cef283557012d, type: 3}
 - Class: 114
@@ -79,6 +81,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7daff26e66096cd49a253ca3ab592c03, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9c2beb69c900ccf4984646ad420b1e17, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d952c175ec3c6554199fd744548ce50a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
 - Class: 114
@@ -143,6 +147,7 @@ Assets:
 - Assets/Oculus/Interaction/Runtime/Prefabs/Grab/ControllerGrabInteractor.prefab
 - Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Hands/RightHandVisual.prefab
+- Assets/Oculus/Interaction/Runtime/Prefabs/Poke/HandPokeInteractor.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Hands/RightHandSynthetic.prefab
 - Assets/Oculus/Interaction/Runtime/Prefabs/Hands/LeftHandVisual.prefab
 - Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab

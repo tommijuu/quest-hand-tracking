@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1676544252
+CRC: 1537619471
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9c5c63d3dea471aa4f9a0a8315f1708c
+    Hash: cb3a7cfce49ac107fc6e7a96bb827ef5
   TypeTreeHash:
     serializedVersion: 2
     Hash: b93bd442b8167f85f0de1ddd2c5f516d
@@ -19,14 +19,12 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
 - Assets/Oculus/VR/Materials/BasicHandMaterial.mat
-- Assets/Materials/CubeOne.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
-- Assets/Materials/CubeTwo.mat
 - Assets/Materials/Table.mat
 - Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
-- Assets/Materials/CubeThree.mat
-- Assets/Materials/CubeFour.mat
+- Assets/Materials/CubeNoPhysics.mat
+- Assets/Materials/CubePhysics.mat
 Dependencies:
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_png0
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_shader0

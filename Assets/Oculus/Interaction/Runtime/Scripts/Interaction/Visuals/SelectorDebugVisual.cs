@@ -10,6 +10,7 @@ ANY KIND, either express or implied. See the License for the specific language g
 permissions and limitations under the License.
 ************************************************************************************/
 
+using Oculus.Interaction.Input;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.Serialization;
@@ -18,6 +19,10 @@ namespace Oculus.Interaction
 {
     public class SelectorDebugVisual : MonoBehaviour
     {
+        public GameObject leftHand, rightHand;
+        public float speed = 10f;
+        private Rigidbody _rb;
+
         [SerializeField, Interface(typeof(ISelector))]
         private MonoBehaviour _selector;
 
@@ -67,6 +72,9 @@ namespace Oculus.Interaction
 
         protected virtual void Start()
         {
+            //leftHand = GameObject.FindWithTag("LeftHandModel").gameObject;
+            //rightHand = GameObject.FindWithTag("RightHandModel").gameObject;
+            //_rb = GetComponent<Rigidbody>();
             this.BeginStart(ref _started);
             Assert.IsNotNull(Selector);
 
@@ -104,6 +112,15 @@ namespace Oculus.Interaction
         {
             if (_selected) return;
             _selected = true;
+
+            //Vector3 dir = rightHand.transform.position - transform.position; //set object's direction
+
+            //_rb.velocity = dir.normalized * speed; //set object's velocity
+
+            //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg; //set object's angle
+
+            //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
 
             _material.color = _selectColor;
 

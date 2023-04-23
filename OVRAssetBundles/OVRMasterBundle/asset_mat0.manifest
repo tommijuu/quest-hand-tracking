@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1537619471
+CRC: 2231227986
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cb3a7cfce49ac107fc6e7a96bb827ef5
+    Hash: fbb912756b03859ce81a5be0564b1267
   TypeTreeHash:
     serializedVersion: 2
     Hash: b93bd442b8167f85f0de1ddd2c5f516d
@@ -24,7 +24,10 @@ Assets:
 - Assets/Oculus/Interaction/Runtime/Materials/OculusHand.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
 - Assets/Materials/CubeNoPhysics.mat
+- Assets/Materials/ButtonRing.mat
+- Assets/Materials/Plane.mat
 - Assets/Materials/CubePhysics.mat
+- Assets/Oculus/Interaction/Runtime/Materials/Unlit Material.mat
 Dependencies:
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_png0
 - F:/UnityProjects/OmatProjektit/quest-hand-tracking/OVRAssetBundles/OVRMasterBundle/asset_shader0

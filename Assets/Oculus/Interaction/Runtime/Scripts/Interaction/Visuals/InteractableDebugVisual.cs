@@ -18,6 +18,9 @@ namespace Oculus.Interaction
 {
     public class InteractableDebugVisual : MonoBehaviour
     {
+        public GameObject cubePrefab, cubeCurrent;
+        public GameObject spawnPoint;
+
         [SerializeField, Interface(typeof(IInteractableView))]
         private MonoBehaviour _interactableView;
 
@@ -147,6 +150,10 @@ namespace Oculus.Interaction
                     break;
                 case InteractableState.Select:
                     _material.color = _selectColor;
+                    GameObject clone;
+                    clone = Instantiate(cubePrefab, spawnPoint.transform.position, Quaternion.identity);
+                    Destroy(cubeCurrent);
+                    cubeCurrent = clone;
                     break;
                 case InteractableState.Disabled:
                     _material.color = _disabledColor;
